@@ -1,4 +1,4 @@
-import { server } from "./app.js";
+import { server } from "../app.js";
 import request from "supertest";
 
 request(server)
